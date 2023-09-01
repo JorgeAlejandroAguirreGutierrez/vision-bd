@@ -1,0 +1,22 @@
+{
+    "defaultEnv": "dev",
+    "dev": {
+        "driver": "pg",
+        "user": "postgres",
+        "password": "root",
+        "host": "localhost",
+        "database": "vision",
+        "port": "5432"
+    },
+    "prod": {
+        "driver": "pg",
+        "user": "nqlitrki",
+        "password": "CHj8KL293Z6WVA4u20EVgdKGxXwr4a-i",
+        "host": "peanut.db.elephantsql.com",
+        "database": "nqlitrki",
+        "port": "5432",
+        "ssl": {
+      		"rejectUnauthorized": false
+    	}
+    }
+}

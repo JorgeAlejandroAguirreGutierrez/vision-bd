@@ -1,0 +1,21 @@
+CREATE TABLE kardex(
+   id       bigint IDENTITY NOT NULL,
+   codigo 	varchar,
+   fecha timestamp without time zone,
+   referencia varchar,
+   id_linea bigint,
+   entrada double,
+   salida double,
+   saldo double,
+   debe double,
+   haber double,
+   costo_promedio double,
+   costo_total double,
+   fecha_creacion	timestamp without time zone NOT NULL, 
+   fecha_actualizacion	timestamp without time zone NOT NULL,
+   tipo_comprobante_id bigint,
+   tipo_operacion_id bigint,
+   bodega_id bigint,
+   producto_id bigint,
+   PRIMARY KEY (id)
+);

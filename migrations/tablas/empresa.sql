@@ -1,0 +1,23 @@
+CREATE TABLE empresa(
+   id       bigint IDENTITY NOT NULL,
+   codigo 	varchar,
+   identificacion varchar,
+   razon_social varchar,
+   nombre_comercial varchar,
+   representante_legal varchar,
+   cargo_representante_legal varchar,
+   logo blob,
+   direccion varchar,
+   obligado_contabilidad varchar,
+   especial varchar,
+   resolucion_especial varchar,
+   agente_retencion varchar,
+   resolucion_agente varchar,
+   estado varchar,
+   certificado varchar,
+   contrasena varchar,
+   fecha_creacion	timestamp without time zone NOT NULL, 
+   fecha_actualizacion	timestamp without time zone NOT NULL,
+   tipo_identificacion_id bigint,
+   PRIMARY KEY (id)
+);

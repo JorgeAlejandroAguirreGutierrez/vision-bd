@@ -1,0 +1,17 @@
+insert into tipo_operacion values (default, "TOP202301000001", "SALDO INICIAL","SALDO INICIAL", "ACTIVO");
+insert into tipo_operacion values (default, "TOP202301000002", "VENTA","VENTA","ACTIVO");
+insert into tipo_operacion values (default, "TOP202301000003", "COMPRA","COMPRA","ACTIVO");
+insert into tipo_operacion values (default, "TOP202301000004", "CONSIGNACIÓN RECIBIDA","CONSIG. RECIBIDA","ACTIVO");
+insert into tipo_operacion values (default, "TOP202301000005", "CONSIGNACIÓN ENTREGADA","CONSIG. ENTREGADA","ACTIVO");
+insert into tipo_operacion values (default, "TOP202301000006", "DEVOLUCIÓN EN COMPRAS","DEV. COMPRA","ACTIVO");
+insert into tipo_operacion values (default, "TOP202301000007", "DEVOLUCIÓN EN VENTAS","DEV. VENTA","ACTIVO");
+insert into tipo_operacion values (default, "TOP202301000008", "DESCUENTO EN COMPRAS","DES. COMPRA","ACTIVO");
+insert into tipo_operacion values (default, "TOP202301000009", "DESCUENTO EN VENTAS","DES. VENTA","ACTIVO");
+insert into tipo_operacion values (default, "TOP202301000010", "PROMOCIÓN","PROMO","ACTIVO");
+insert into tipo_operacion values (default, "TOP202301000011", "DONACIÓN","DONACIÓN","ACTIVO");
+insert into tipo_operacion values (default, "TOP202301000012", "SALIDA A PRODUCCIÓN","PRODUCCIÓN","ACTIVO");
+insert into tipo_operacion values (default, "TOP202301000013", "TRANSFERENCIA ENTRE ALMACENES","TRANS. ALMACEN","ACTIVO");
+insert into tipo_operacion values (default, "TOP202301000014", "TRANSFERENCIA ENTRE BODEGAS","TRANS. BODEGA","ACTIVO");
+insert into tipo_operacion values (default, "TOP202301000015", "RETIRO","RETIRO","ACTIVO");
+insert into tipo_operacion values (default, "TOP202301000016", "MERMAS","MERMAS","ACTIVO");
+insert into tipo_operacion values (default, "TOP202301000017", "DESTRUCCIÓN","DESTRUCCIÓN","ACTIVO");

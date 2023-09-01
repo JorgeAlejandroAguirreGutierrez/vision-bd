@@ -1,0 +1,11 @@
+insert into forma_pago values (default,"FPA202301000001", "01", "SIN UTILIZACION DEL SISTEMA FINANCIERO", "EFECTIVO", "ACTIVO");
+insert into forma_pago values (default,"FPA202301000002", "15", "COMPENSACIÓN DE DEUDAS", "COMPENSACIÓN", "ACTIVO");
+insert into forma_pago values (default,"FPA202301000003", "16", "TARJETA DE DÉBITO", "TAR. DÉBITO", "ACTIVO");
+insert into forma_pago values (default,"FPA202301000004", "17", "DINERO ELECTRÓNICO", "E-COMMERCE", "ACTIVO");
+insert into forma_pago values (default,"FPA202301000005", "18", "TARJETA PREPAGO", "PREPAGO", "ACTIVO");
+insert into forma_pago values (default,"FPA202301000006", "19", "TARJETA DE CRÉDITO", "TAR. CRÉDITO", "ACTIVO");
+insert into forma_pago values (default,"FPA202301000007", "20", "OTROS CON UTILIZACIÓN DEL SISTEMA FINANCIERO", "CHEQUE", "ACTIVO");
+insert into forma_pago values (default,"FPA202301000008", "20", "OTROS CON UTILIZACIÓN DEL SISTEMA FINANCIERO", "DEPÓSITO", "ACTIVO");
+insert into forma_pago values (default,"FPA202301000009", "20", "OTROS CON UTILIZACIÓN DEL SISTEMA FINANCIERO", "TRANSFERENCIA", "ACTIVO");
+insert into forma_pago values (default,"FPA202301000010", "20", "OTROS CON UTILIZACIÓN DEL SISTEMA FINANCIERO", "RETENCIÓN", "ACTIVO");
+insert into forma_pago values (default,"FPA202301000011", "21", "ENDOSO DE TÍTULOS", "ENDOSO", "ACTIVO");

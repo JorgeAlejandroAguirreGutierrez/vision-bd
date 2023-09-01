@@ -1,0 +1,22 @@
+CREATE TABLE usuario(
+   id       bigint IDENTITY NOT NULL,
+   codigo 	varchar,
+   idetificacion varchar,
+   apodo varchar,
+   nombre varchar,
+   telefono varchar,
+   celular varchar,
+   correo varchar,
+   contrasena varchar,
+   confirmar_contrasena varchar,
+   avatar blob,
+   cambiar_contrasena varchar,
+   pregunta varchar,
+   respuesta varchar,
+   estado varchar,
+   fecha_creacion	timestamp without time zone NOT NULL, 
+   fecha_actualizacion	timestamp without time zone NOT NULL,
+   perfil_id bigint,
+   estacion_id bigint,
+   PRIMARY KEY (id)
+);

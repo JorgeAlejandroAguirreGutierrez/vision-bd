@@ -1,0 +1,25 @@
+CREATE TABLE cliente_base(
+   id       bigint IDENTITY NOT NULL,
+   codigo 	varchar,
+   identificacion	varchar,
+   apellidos 	varchar,
+   nombres	varchar,
+   fecha_nacimiento	timestamp without time zone,
+   direccion	varchar,
+   referencia	varchar
+   provincia	varchar,
+   canton	varchar,
+   parroquia	varchar,
+   telefono	varchar,
+   celular varchar,
+   correo varchar,
+   origen varchar,
+   prioridad varchar,
+   estado varchar,
+   fecha_creacion	timestamp without time zone NOT NULL, 
+   fecha_actualizacion	timestamp without time zone NOT NULL,
+   ubicacion_id bigint,
+   genero_id	bigint,
+   estado_civil_id	bigint,
+   PRIMARY KEY (id)
+);

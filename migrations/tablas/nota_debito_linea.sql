@@ -1,0 +1,22 @@
+CREATE TABLE nota_debito_linea(
+   id       bigint IDENTITY NOT NULL,
+   codigo 	varchar,
+   posicion bigint,
+   entregado varchar,
+   consginacion varchar,
+   cantidad bigint,
+   precio_unitario double,
+   valor_descuento_linea double,
+   porcentaje_descuento_linea double,
+   valor_porcentaje_descuento_linea double,
+   subtotal_linea varchar,
+   importe_iva_linea double,
+   total_linea double,
+   fecha_creacion	timestamp without time zone NOT NULL, 
+   fecha_actualizacion	timestamp without time zone NOT NULL,
+   impuesto_id bigint,
+   precio_id bigint,
+   producto_id bigint,
+   nota_debito_id bigint,
+   PRIMARY KEY (id)
+);

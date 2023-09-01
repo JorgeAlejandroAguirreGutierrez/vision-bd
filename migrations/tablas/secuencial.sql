@@ -1,0 +1,9 @@
+CREATE TABLE secuencial(
+   id       bigint IDENTITY NOT NULL,
+   codigo 	varchar,
+   numero_siguiente bigint,
+   estado bigint,
+   fecha_creacion	timestamp without time zone NOT NULL, 
+   fecha_actualizacion	timestamp without time zone NOT NULL,
+   PRIMARY KEY (id)
+);

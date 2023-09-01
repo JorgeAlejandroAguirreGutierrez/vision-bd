@@ -1,0 +1,15 @@
+insert into tipo_comprobante values (default, "TCO000001","NA", "PROCESO INTERNO", "PROCESO INTERNO", null, "NO", "ACTIVO");
+insert into tipo_comprobante values (default, "TCO000002","01", "FACTURA", "FACTURA VENTA", "factura", "SI", "ACTIVO");
+insert into tipo_comprobante values (default, "TCO000003","03", "LIQUIDACIÓN DE COMPRA DE BIENES Y PRESTACIÓN DE SERVICIOS", "LIQUIDACIÓN COMPRA", "liquidacion_compra", "SI", "ACTIVO");
+insert into tipo_comprobante values (default, "TCO000004","04", "NOTA DE CRÉDITO VENTA", "N. CRÉDITO VENTA", "nota_credito", "SI", "ACTIVO");
+insert into tipo_comprobante values (default, "TCO000005","05", "NOTA DE DÉBITO VENTA", "N. DÉBITO VENTA", "nota_debito", "SI", "ACTIVO");
+insert into tipo_comprobante values (default, "TCO000006","06", "GUÍA DE REMISIÓN", "GUÍA REMISIÓN", "guia_remision", "SI", "ACTIVO");
+insert into tipo_comprobante values (default, "TCO000007","07", "COMPROBANTE DE RETENCIÓN", "RETENCIÓN VENTA", "retencion", "SI", "ACTIVO");
+insert into tipo_comprobante values (default, "TCO000008","NA", "FACTURA DE COMPRA", "FACTURA COMPRA", "factura_compra", "NO", "ACTIVO");
+insert into tipo_comprobante values (default, "TCO000009","NA", "NOTA DE CRÉDITO COMPRA", "N. CRÉDITO COMPRA", "nota_credito_compra", "NO", "ACTIVO");
+insert into tipo_comprobante values (default, "TCO000010","NA", "NOTA DE DÉBITO COMPRA", "N. DÉBITO COMPRA", "nota_debito_compra", "NO", "ACTIVO");
+insert into tipo_comprobante values (default, "TCO000011","NA", "EGRESO", "EGRESO", "egreso", "NO", "ACTIVO");
+insert into tipo_comprobante values (default, "TCO000012","NA", "PEDIDO", "PEDIDO", "pedido", "NO", "ACTIVO");
+insert into tipo_comprobante values (default, "TCO000013","NA", "PROFORMA", "PROFORMA", "proforma", "NO", "ACTIVO");
+insert into tipo_comprobante values (default, "TCO000014","NA", "ANTICIPO", "ANTICIPO", "recaudacion", "NO", "ACTIVO");
+insert into tipo_comprobante values (default, "TCO000015","NA", "RETENCIÓN EN COMPRA", "RETENCIÓN COMPRA", "retencion_compra", "NO", "ACTIVO");

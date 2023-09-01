@@ -1,0 +1,12 @@
+CREATE TABLE grupo_proveedor(
+   id       bigint IDENTITY NOT NULL,
+   codigo 	varchar,
+   descripcion varchar,
+   abreviatura varchar,
+   estado varchar,
+   fecha_creacion	timestamp without time zone NOT NULL, 
+   fecha_actualizacion	timestamp without time zone NOT NULL,
+   cuenta_contable_id bigint,
+   empresa_id bigint,
+   PRIMARY KEY (id)
+);
