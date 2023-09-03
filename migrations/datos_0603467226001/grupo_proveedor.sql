@@ -1,0 +1,2 @@
+insert into grupo_proveedor values (default, "GPR012306000001", "PROVEEDORES NACIONALES", "NAC", "ACTIVO", 4, 1);
+insert into grupo_proveedor values (default, "GPR012306000002", "PROVEEDORES INTERNACIONALES", "INTER", "ACTIVO", 5, 1);
