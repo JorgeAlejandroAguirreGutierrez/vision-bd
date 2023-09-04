@@ -1,1 +1,1 @@
-insert into celular_proveedor values (default, "CEP022308000001", "0987654321", 3);
+insert into celular_proveedor(id, codigo, numero, proveedor_id, fecha_creacion, fecha_actualizacion) values (default, 'CEP022308000001', '0987654321', 3, default, default);

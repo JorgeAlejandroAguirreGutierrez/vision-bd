@@ -1,1 +1,1 @@
-insert into celular_establecimiento values (default, "CEE202308000001", "0994657138", 4);
+insert into celular_establecimiento(id, codigo, numero, establecimiento_id, fecha_creacion, fecha_actualizacion) values(default, 'CEE202308000001', '0994657138', 4, default, default);

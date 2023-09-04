@@ -1,1 +1,1 @@
-insert into telefono_proveedor values (default, "TPR022308000001", "032964123", 3);
+insert into telefono_proveedor(id, codigo, numero, proveedor_id, fecha_creacion, fecha_actualizacion) values(default, 'TPR022308000001', '032964123', 3, default, default);
