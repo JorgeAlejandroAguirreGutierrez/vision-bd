@@ -1,0 +1,1 @@
+insert into correo_proveedor values (default, "COP022308000001", "proveedor@gmil.com", 3);

@@ -1,0 +1,1 @@
+insert into celular_establecimiento values (default, "CEE202305000001", "09-9977-8877", 1);

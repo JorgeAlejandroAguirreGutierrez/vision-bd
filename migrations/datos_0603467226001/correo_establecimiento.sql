@@ -1,0 +1,1 @@
+insert into correo_establecimiento values (default, "COE202305000001", "correo@hotmail.com", 1);

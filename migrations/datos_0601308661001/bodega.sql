@@ -1,0 +1,1 @@
+insert into bodega values ("BOD022301000001", "BODEGA MATRIZ", "BM001", "ACTIVO", 2);

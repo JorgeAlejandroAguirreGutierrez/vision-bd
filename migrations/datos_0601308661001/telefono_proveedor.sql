@@ -1,0 +1,1 @@
+insert into telefono_proveedor values (default, "TPR022308000001", "032964123", 3);

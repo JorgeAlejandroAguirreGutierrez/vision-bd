@@ -1,0 +1,1 @@
+insert into grupo_proveedor values (default, "GPR022308000001", "PROVEEDOR GENERAL", "PRG", "ACTIVO", 4, 2);

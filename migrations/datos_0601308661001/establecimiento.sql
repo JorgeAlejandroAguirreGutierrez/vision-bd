@@ -1,0 +1,2 @@
+insert into establecimiento values (default, "EST022308000001", "001", "VILLA MARIA", "LOJA 21-27 Y OROZCO", -1.6719601146175827, -78.65041698970857, "ACTIVO", 1, 248, 2);
+insert into establecimiento values (default, "EST022308000002", "004", "VILLA MARIA 2", "OROZCO SN Y LOJA", -1.6719601146175827, -78.65041698970857, "ACTIVO", 1, 248, 2);

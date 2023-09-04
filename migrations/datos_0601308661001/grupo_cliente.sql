@@ -1,0 +1,1 @@
+insert into grupo_cliente values (default, "GCL022308000001", "CLIENTE GENERAL", "CLG", "ACTIVO", 323, 2);

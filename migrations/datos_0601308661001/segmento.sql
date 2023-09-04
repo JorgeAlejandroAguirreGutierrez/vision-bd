@@ -1,0 +1,1 @@
+insert into segmento values (default, "SEG022308000001", 6, "CLIENTE FINAL", "CLF", "ACTIVO", 2);

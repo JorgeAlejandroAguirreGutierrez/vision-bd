@@ -1,0 +1,2 @@
+insert into cuenta_propia values (default, "CTP022305000001","AHORROS","FUTURISTIC S.A.","0000000004", "ACTIVO", 4, 2);
+insert into cuenta_propia values (default, "CTP022305000002","CORRIENTE","MARIO DELGADO","0000000001", "ACTIVO", 1, 2);

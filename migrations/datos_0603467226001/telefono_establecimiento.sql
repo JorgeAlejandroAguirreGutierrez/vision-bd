@@ -1,0 +1,1 @@
+insert into telefono_establecimiento values (default, "TEE202305000001", "03-296-4123", 1);

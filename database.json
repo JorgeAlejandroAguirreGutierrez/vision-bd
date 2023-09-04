@@ -8,12 +8,23 @@
         "database": "vision",
         "port": "5432"
     },
-    "prod": {
+	"test": {
         "driver": "pg",
         "user": "nqlitrki",
         "password": "CHj8KL293Z6WVA4u20EVgdKGxXwr4a-i",
         "host": "peanut.db.elephantsql.com",
         "database": "nqlitrki",
+        "port": "5432",
+		"ssl": {
+      		"rejectUnauthorized": false
+    	}
+    },
+    "prod": {
+        "driver": "pg",
+        "user": "izpxxbdgahciaf",
+        "password": "df2464ba0e80e7adb8339dc26d38010b19d2803b525e815c339257307df89f78",
+        "host": "ec2-44-214-132-149.compute-1.amazonaws.com",
+        "database": "izpxxbdgahciaf",
         "port": "5432",
         "ssl": {
       		"rejectUnauthorized": false

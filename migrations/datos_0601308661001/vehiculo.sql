@@ -1,0 +1,2 @@
+insert into vehiculo values (default, "VTR022306000001", "AAA-4963", "003", "CHEVROLET","TACKER", "2020", "1500", "ALTA", "NEGRA", "2019", "ACTIVO", 2);
+insert into vehiculo values (default, "VTR022306000002", "AAA-4263", "004", "FORD","ESCAPE", "2020", "2000", "ALTA", "NEGRA", "2019", "ACTIVO", 2);

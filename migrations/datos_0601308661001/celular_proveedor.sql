@@ -1,0 +1,1 @@
+insert into celular_proveedor values (default, "CEP022308000001", "0987654321", 3);

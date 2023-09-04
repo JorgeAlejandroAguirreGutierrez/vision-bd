@@ -1,0 +1,1 @@
+insert into plazo_credito values (default, "PCR022308000001", "SIN CREDITO", "SCR", 0, "ACTIVO", 2);

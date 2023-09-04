@@ -1,0 +1,39 @@
+insert into precio values (default,"PRE012301000001", 15.0, 6.0, 15.0, 15.0, 30.0, 10.0, 10.0, "ACTIVO", 1, 1);
+insert into precio values (default,"PRE012301000002", 2.0, 2.0, 2.0, 2.0, 20.0, 10.0, 10.0, "ACTIVO", 2, 1);
+insert into precio values (default,"PRE012301000003", 3.0, 3.0, 3.0, 3.0, 30.0, 10.0, 10.0, "ACTIVO", 3, 1);
+insert into precio values (default,"PRE012301000004", 20.0, 10.0, 20.0, 20.0, 30.0, 10.0, 10.0, "ACTIVO", 4, 1);
+
+insert into precio values (default,"PRE012301000005", 20.0, 6.0, 30.0, 20.0, 40.0, 10.0, 10.0, "ACTIVO", 1, 2);
+insert into precio values (default,"PRE012301000006", 30.0, 2.0, 40.0, 30.0, 50.0, 10.0, 10.0, "ACTIVO", 2, 2);
+insert into precio values (default,"PRE012301000007", 40.0, 3.0, 50.0, 40.0, 60.0, 10.0, 10.0, "ACTIVO", 3, 2);
+insert into precio values (default,"PRE012301000008", 50.0, 10.0, 60.0, 50.0, 70.0, 10.0, 10.0, "ACTIVO", 4, 2);
+
+insert into precio values (default,"PRE012301000009", 20.0, 6.0, 30.0, 20.0, 40.0, 10.0, 10.0, "ACTIVO", 1, 3);
+insert into precio values (default,"PRE012301000010", 30.0, 2.0, 40.0, 30.0, 50.0, 10.0, 10.0, "ACTIVO", 2, 3);
+insert into precio values (default,"PRE012301000011", 40.0, 3.0, 50.0, 40.0, 60.0, 10.0, 10.0, "ACTIVO", 3, 3);
+insert into precio values (default,"PRE012301000012", 50.0, 10.0, 60.0, 50.0, 70.0, 10.0, 10.0, "ACTIVO", 4, 3);
+
+insert into precio values (default,"PRE012301000013", 20.0, 6.0, 30.0, 20.0, 40.0, 10.0, 10.0, "ACTIVO", 1, 4);
+insert into precio values (default,"PRE012301000014", 30.0, 2.0, 40.0, 30.0, 50.0, 10.0, 10.0, "ACTIVO", 2, 4);
+insert into precio values (default,"PRE012301000015", 40.0, 3.0, 50.0, 40.0, 60.0, 110.0, 10.0, "ACTIVO", 3, 4);
+insert into precio values (default,"PRE012301000016", 50.0, 10.0, 60.0, 50.0, 70.0, 10.0, 10.0, "ACTIVO", 4, 4);
+
+insert into precio values (default,"PRE012301000017", 20.0, 6.0, 30.0, 20.0, 40.0, 10.0, 10.0, "ACTIVO", 1, 5);
+insert into precio values (default,"PRE012301000018", 30.0, 2.0, 40.0, 30.0, 50.0, 10.0, 10.0, "ACTIVO", 2, 5);
+insert into precio values (default,"PRE012301000019", 40.0, 3.0, 50.0, 40.0, 60.0, 10.0, 10.0, "ACTIVO", 3, 5);
+insert into precio values (default,"PRE012301000020", 50.0, 10.0, 60.0, 50.0, 70.0, 10.0, 10.0, "ACTIVO", 4, 5);
+
+insert into precio values (default,"PRE012301000021", 20.0, 6.0, 30.0, 20.0, 40.0, 10.0, 10.0, "ACTIVO", 1, 6);
+insert into precio values (default,"PRE012301000022", 30.0, 2.0, 40.0, 30.0, 50.0, 10.0, 10.0, "ACTIVO", 2, 6);
+insert into precio values (default,"PRE012301000023", 40.0, 3.0, 50.0, 40.0, 60.0, 10.0, 10.0, "ACTIVO", 3, 6);
+insert into precio values (default,"PRE012301000024", 50.0, 10.0, 60.0, 50.0, 70.0, 10.0, 10.0, "ACTIVO", 4, 6);
+
+insert into precio values (default,"PRE012301000025", 20.0, 6.0, 30.0, 20.0, 40.0, 10.0, 10.0, "ACTIVO", 1, 7);
+insert into precio values (default,"PRE012301000026", 30.0, 2.0, 40.0, 30.0, 50.0, 10.0, 10.0, "ACTIVO", 2, 7);
+insert into precio values (default,"PRE012301000027", 40.0, 3.0, 50.0, 40.0, 60.0, 10.0, 10.0, "ACTIVO", 3, 7);
+insert into precio values (default,"PRE012301000028", 50.0, 10.0, 60.0, 50.0, 70.0, 10.0, 10.0, "ACTIVO", 4, 7);
+
+insert into precio values (default,"PRE012301000029", 20.0, 6.0, 30.0, 20.0, 40.0, 10.0, 10.0, "ACTIVO", 1, 8);
+insert into precio values (default,"PRE012301000030", 30.0, 2.0, 40.0, 30.0, 50.0, 10.0, 10.0, "ACTIVO", 2, 8);
+insert into precio values (default,"PRE012301000031", 40.0, 3.0, 50.0, 40.0, 60.0, 10.0, 10.0, "ACTIVO", 3, 8);
+insert into precio values (default,"PRE012301000032", 50.0, 10.0, 60.0, 50.0, 70.0, 10.0, 10.0, "ACTIVO", 4, 8);

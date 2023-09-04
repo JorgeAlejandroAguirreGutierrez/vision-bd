@@ -1,0 +1,2 @@
+insert into transportista values (default, "TRA022306000001", "ACEVEDO PALACIO SONIA CECILIA", "1704997012", "ACTIVO", 1, 2);
+insert into transportista values (default, "TRA022306000002", "AGUILAR PAZMIÑO SHEILA DAYAN", "1715241434", "ACTIVO", 1, 2);

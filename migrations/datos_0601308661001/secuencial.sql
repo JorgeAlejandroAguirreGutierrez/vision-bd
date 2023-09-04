@@ -1,0 +1,10 @@
+insert into secuencial values (default, "SEC022304000001", 1, "ACTIVO", 2, 8);
+insert into secuencial values (default, "SEC022304000002", 1, "ACTIVO", 4, 8);
+insert into secuencial values (default, "SEC022304000003", 1, "ACTIVO", 5, 8);
+insert into secuencial values (default, "SEC022304000004", 1, "ACTIVO", 6, 8);
+insert into secuencial values (default, "SEC022304000005", 1, "ACTIVO", 7, 8);
+insert into secuencial values (default, "SEC022304000006", 1, "ACTIVO", 2), 9);
+insert into secuencial values (default, "SEC022304000007", 1, "ACTIVO", 4), 9);
+insert into secuencial values (default, "SEC022304000008", 1, "ACTIVO", 5), 9);
+insert into secuencial values (default, "SEC022304000009", 1, "ACTIVO", 6), 9);
+insert into secuencial values (default, "SEC022304000010", 1, "ACTIVO", 7), 9);
