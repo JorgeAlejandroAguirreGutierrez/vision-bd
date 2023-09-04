@@ -11,11 +11,11 @@ CREATE TABLE kardex(
    haber double precision,
    costo_promedio double precision,
    costo_total double precision,
-   fecha_creacion	timestamp without time zone NOT NULL, 
-   fecha_actualizacion	timestamp without time zone NOT NULL,
    tipo_comprobante_id bigint,
    tipo_operacion_id bigint,
    bodega_id bigint,
    producto_id bigint,
+   fecha_creacion	timestamp without time zone NOT NULL default CURRENT_TIMESTAMP, 
+   fecha_actualizacion	timestamp without time zone NOT NULL default CURRENT_TIMESTAMP,
    PRIMARY KEY (id)
 );

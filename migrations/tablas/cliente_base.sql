@@ -16,10 +16,10 @@ CREATE TABLE cliente_base(
    origen varchar,
    prioridad varchar,
    estado varchar,
-   fecha_creacion	timestamp without time zone NOT NULL, 
-   fecha_actualizacion	timestamp without time zone NOT NULL,
    ubicacion_id bigint,
    genero_id	bigint,
    estado_civil_id	bigint,
+   fecha_creacion	timestamp without time zone NOT NULL default CURRENT_TIMESTAMP, 
+   fecha_actualizacion	timestamp without time zone NOT NULL default CURRENT_TIMESTAMP,
    PRIMARY KEY (id)
 );

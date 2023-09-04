@@ -19,9 +19,9 @@ CREATE TABLE cierre_caja(
    total_monedas double precision,
    total_caja double precision,
    estado varchar,
-   fecha_creacion	timestamp without time zone NOT NULL, 
-   fecha_actualizacion	timestamp without time zone NOT NULL,
    sesion_id bigint,
    empresa_id bigint,
+   fecha_creacion	timestamp without time zone NOT NULL default CURRENT_TIMESTAMP, 
+   fecha_actualizacion	timestamp without time zone NOT NULL default CURRENT_TIMESTAMP,
    PRIMARY KEY (id)
 );

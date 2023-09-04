@@ -22,13 +22,13 @@ CREATE TABLE guia_remision(
    opcion_guia varchar,
    estado varchar,
    proceso_sri varchar,
-   fecha_creacion	timestamp without time zone NOT NULL, 
-   fecha_actualizacion	timestamp without time zone NOT NULL,
    tipo_comprobante_id bigint,
    sesion_id bigint,
    transportista_id bigint,
    vehiculo_id bigint,
    factura_id bigint,
    empresa_id bigint,
+   fecha_creacion	timestamp without time zone NOT NULL default CURRENT_TIMESTAMP, 
+   fecha_actualizacion	timestamp without time zone NOT NULL default CURRENT_TIMESTAMP,
    PRIMARY KEY (id)
 );

@@ -5,9 +5,9 @@ CREATE TABLE sesion(
    fecha_cierre timestamp without time zone,
    ip varchar,
    estado varchar,
-   fecha_creacion	timestamp without time zone NOT NULL, 
-   fecha_actualizacion	timestamp without time zone NOT NULL,
    usuario_id bigint,
    empresa_id bigint,
+   fecha_creacion	timestamp without time zone NOT NULL default CURRENT_TIMESTAMP, 
+   fecha_actualizacion	timestamp without time zone NOT NULL default CURRENT_TIMESTAMP,
    PRIMARY KEY (id)
 );

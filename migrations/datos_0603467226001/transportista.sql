@@ -1,2 +1,2 @@
-insert into transportista values (default, "TRA012306000001", "ABAD NIETO PABLO MARCELO", "1303753618", "ACTIVO", 1, 1);
-insert into transportista values (default, "TRA012306000002", "ABATA REINOSO BELLA NARCISA DEL PILAR", "1706172648", "ACTIVO", 1, 1);
+insert into transportista(id, codigo, nombre, identificacion, estado, tipo_identificacion_id, empresa_id, fecha_creacion, fecha_actualizacion) values(default, 'TRA012306000001', 'ABAD NIETO PABLO MARCELO', '1303753618', 'ACTIVO', 1, 1, default, default);
+insert into transportista(id, codigo, nombre, identificacion, estado, tipo_identificacion_id, empresa_id, fecha_creacion, fecha_actualizacion) values(default, 'TRA012306000002', 'ABATA REINOSO BELLA NARCISA DEL PILAR', '1706172648', 'ACTIVO', 1, 1, default, default);

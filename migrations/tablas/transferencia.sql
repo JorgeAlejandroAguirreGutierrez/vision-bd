@@ -5,9 +5,9 @@ CREATE TABLE transferencia(
    tipo varchar,
    comprobante varchar,
    valor double precision,
-   fecha_creacion	timestamp without time zone NOT NULL, 
-   fecha_actualizacion	timestamp without time zone NOT NULL,
    cuenta_propia_id bigint,
    factura_id bigint,
+   fecha_creacion	timestamp without time zone NOT NULL default CURRENT_TIMESTAMP, 
+   fecha_actualizacion	timestamp without time zone NOT NULL default CURRENT_TIMESTAMP,
    PRIMARY KEY (id)
 );

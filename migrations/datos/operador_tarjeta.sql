@@ -1,4 +1,4 @@
-insert into operador_tarjeta values (default, "OTA000001", "CREDITO", "DATAFAST", "DF", "ACTIVO");
-insert into operador_tarjeta values (default, "OTA000002", "DEBITO", "DATAFAST", "DF", "ACTIVO");
-insert into operador_tarjeta values (default, "OTA000003", "CREDITO", "MEGADATOS", "MD", "ACTIVO");
-insert into operador_tarjeta values (default, "OTA000004", "DEBITO", "MEGADATOS", "MD", "ACTIVO");
+insert into operador_tarjeta(id, codigo, tipo, nombre, abreviatura, estado, fecha_creacion, fecha_actualizacion) values(default, 'OTA000001', 'CREDITO', 'DATAFAST', 'DF', 'ACTIVO', default, default);
+insert into operador_tarjeta(id, codigo, tipo, nombre, abreviatura, estado, fecha_creacion, fecha_actualizacion) values(default, 'OTA000002', 'DEBITO', 'DATAFAST', 'DF', 'ACTIVO', default, default);
+insert into operador_tarjeta(id, codigo, tipo, nombre, abreviatura, estado, fecha_creacion, fecha_actualizacion) values(default, 'OTA000003', 'CREDITO', 'MEGADATOS', 'MD', 'ACTIVO', default, default);
+insert into operador_tarjeta(id, codigo, tipo, nombre, abreviatura, estado, fecha_creacion, fecha_actualizacion) values(default, 'OTA000004', 'DEBITO', 'MEGADATOS', 'MD', 'ACTIVO', default, default);

@@ -4,9 +4,9 @@ CREATE TABLE grupo_proveedor(
    descripcion varchar,
    abreviatura varchar,
    estado varchar,
-   fecha_creacion	timestamp without time zone NOT NULL, 
-   fecha_actualizacion	timestamp without time zone NOT NULL,
    cuenta_contable_id bigint,
    empresa_id bigint,
+   fecha_creacion	timestamp without time zone NOT NULL default CURRENT_TIMESTAMP, 
+   fecha_actualizacion	timestamp without time zone NOT NULL default CURRENT_TIMESTAMP,
    PRIMARY KEY (id)
 );

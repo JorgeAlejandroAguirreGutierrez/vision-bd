@@ -12,11 +12,11 @@ CREATE TABLE nota_debito_linea(
    subtotal_linea varchar,
    importe_iva_linea double precision,
    total_linea double precision,
-   fecha_creacion	timestamp without time zone NOT NULL, 
-   fecha_actualizacion	timestamp without time zone NOT NULL,
    impuesto_id bigint,
    precio_id bigint,
    producto_id bigint,
    nota_debito_id bigint,
+   fecha_creacion	timestamp without time zone NOT NULL default CURRENT_TIMESTAMP, 
+   fecha_actualizacion	timestamp without time zone NOT NULL default CURRENT_TIMESTAMP,
    PRIMARY KEY (id)
 );

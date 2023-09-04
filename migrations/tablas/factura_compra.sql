@@ -18,11 +18,11 @@ CREATE TABLE factura_compra(
    importe_iva_total double precision,
    total double precision,
    comentario varchar,
-   fecha_creacion	timestamp without time zone NOT NULL, 
-   fecha_actualizacion	timestamp without time zone NOT NULL,
    proveedor_id bigint,
    sesion_id bigint,
    tipo_comprobante_id bigint,
    empresa_id bigint,
+   fecha_creacion	timestamp without time zone NOT NULL default CURRENT_TIMESTAMP, 
+   fecha_actualizacion	timestamp without time zone NOT NULL default CURRENT_TIMESTAMP,
    PRIMARY KEY (id)
 );

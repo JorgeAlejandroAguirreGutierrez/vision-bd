@@ -4,8 +4,6 @@ CREATE TABLE producto(
    nombre varchar,
    consignacion varchar,
    estado varchar,
-   fecha_creacion	timestamp without time zone NOT NULL, 
-   fecha_actualizacion	timestamp without time zone NOT NULL,
    categoria_producto_id bigint,
    grupo_producto_id bigint,
    tipo_gasto_id bigint,
@@ -13,5 +11,7 @@ CREATE TABLE producto(
    medida_id bigint,
    proveedor_id bigint,
    empresa_id bigint,
+   fecha_creacion	timestamp without time zone NOT NULL default CURRENT_TIMESTAMP, 
+   fecha_actualizacion	timestamp without time zone NOT NULL default CURRENT_TIMESTAMP,
    PRIMARY KEY (id)
 );

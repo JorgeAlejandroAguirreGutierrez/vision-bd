@@ -1,3 +1,3 @@
-insert into tipo_contribuyente values (default, "TCO202301000001", "NATURAL", "NATURAL", "NO");
-insert into tipo_contribuyente values (default, "TCO202301000002", "JURIDICA", "PUBLICA", "SI");
-insert into tipo_contribuyente values (default, "TCO202301000003", "JURIDICA", "PRIVADA", "SI");
+insert into tipo_contribuyente(id, codigo, tipo, subtipo, obligado_contabilidad, fecha_creacion, fecha_actualizacion) values (default, 'TCO202301000001', 'NATURAL', 'NATURAL', 'NO', default, default);
+insert into tipo_contribuyente(id, codigo, tipo, subtipo, obligado_contabilidad, fecha_creacion, fecha_actualizacion) values (default, 'TCO202301000002', 'JURIDICA', 'PUBLICA', 'SI', default, default);
+insert into tipo_contribuyente(id, codigo, tipo, subtipo, obligado_contabilidad, fecha_creacion, fecha_actualizacion) values (default, 'TCO202301000003', 'JURIDICA', 'PRIVADA', 'SI', default, default);

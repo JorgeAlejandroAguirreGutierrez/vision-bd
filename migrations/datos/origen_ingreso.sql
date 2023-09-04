@@ -1,3 +1,3 @@
-insert into origen_ingreso values (default,"OIN202301000001", "SALARIO", "SLR", "ACTIVO");
-insert into origen_ingreso values (default,"OIN202301000002", "VENTAS", "VNT", "ACTIVO");
-insert into origen_ingreso values (default,"OIN202301000003", "INDEPENDIENTE", "INDP", "ACTIVO");
+insert into origen_ingreso(id, codigo, descripcion, abreviatura, estado, fecha_creacion, fecha_actualizacion) values(default,'OIN202301000001', 'SALARIO', 'SLR', 'ACTIVO', default, default);
+insert into origen_ingreso(id, codigo, descripcion, abreviatura, estado, fecha_creacion, fecha_actualizacion) values(default,'OIN202301000002', 'VENTAS', 'VNT', 'ACTIVO', default, default);
+insert into origen_ingreso(id, codigo, descripcion, abreviatura, estado, fecha_creacion, fecha_actualizacion) values(default,'OIN202301000003', 'INDEPENDIENTE', 'INDP', 'ACTIVO', default, default);

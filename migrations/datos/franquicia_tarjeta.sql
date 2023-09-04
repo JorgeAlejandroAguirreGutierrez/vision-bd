@@ -1,3 +1,3 @@
-insert into franquicia_tarjeta values (default, "FT1", "", "VISA", "V", "ACTIVO");
-insert into franquicia_tarjeta values (default, "FT1", "", "DINERS CLUB", "DC", "ACTIVO");
-insert into franquicia_tarjeta values (default, "FT1", "", "MASTERCARD", "M", "ACTIVO");
+insert into franquicia_tarjeta(id, codigo, tipo, nombre, abreviatura, estado, fecha_creacion, fecha_actualizacion) values(default, 'FT1', '', 'VISA', 'V', 'ACTIVO', default, default);
+insert into franquicia_tarjeta(id, codigo, tipo, nombre, abreviatura, estado, fecha_creacion, fecha_actualizacion) values(default, 'FT1', '', 'DINERS CLUB', 'DC', 'ACTIVO', default, default);
+insert into franquicia_tarjeta(id, codigo, tipo, nombre, abreviatura, estado, fecha_creacion, fecha_actualizacion) values(default, 'FT1', '', 'MASTERCARD', 'M', 'ACTIVO', default, default);

@@ -1,2 +1,2 @@
-insert into telefono_proveedor values (default, "TEA011908000001", "032964121", 1);
-insert into telefono_proveedor values (default, "TEA011909000003", "032964123", 2);
+insert into telefono_proveedor(id, codigo, numero, proveedor_id, fecha_creacion, fecha_actualizacion) values (default, 'TEA011908000001', '032964121', 1, default, default);
+insert into telefono_proveedor(id, codigo, numero, proveedor_id, fecha_creacion, fecha_actualizacion) values (default, 'TEA011909000003', '032964123', 2, default, default);

@@ -1,2 +1,2 @@
-insert into vehiculo values (default, "VTR012306000001","AAA-4521","001","FORD","FIESTA", "2020", "1500", "ALTA", "ROJA", "2019", "ACTIVO", 1);
-insert into vehiculo values (default, "VTR012306000002","AAA-4211","002","MAZDA","IZ35", "2020", "1500", "ALTA", "BLANCA", "2019", "ACTIVO", 1);
+insert into vehiculo(id, codigo, placa, numero, marca, modelo, anio, cilindraje, clase, color, fabrica, estado, empresa_id, fecha_creacion, fecha_actualizacion) values(default, 'VTR012306000001','AAA-4521','001','FORD','FIESTA', '2020', '1500', 'ALTA', 'ROJA', '2019', 'ACTIVO', 1, default, default);
+insert into vehiculo(id, codigo, placa, numero, marca, modelo, anio, cilindraje, clase, color, fabrica, estado, empresa_id, fecha_creacion, fecha_actualizacion) values(default, 'VTR012306000002','AAA-4211','002','MAZDA','IZ35', '2020', '1500', 'ALTA', 'BLANCA', '2019', 'ACTIVO', 1, default, default);

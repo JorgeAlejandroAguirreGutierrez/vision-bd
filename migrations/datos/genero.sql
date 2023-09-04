@@ -1,2 +1,2 @@
-insert into genero values (default, "GEN012306000001", "MASCULINO", "M", "ACTIVO");
-insert into genero values (default, "GEN012306000002", "FEMENINO", "F", "ACTIVO");
+insert into genero(id, codigo, descripcion, abreviatura, estado, fecha_creacion, fecha_actualizacion) values(default, 'GEN012306000001', 'MASCULINO', 'M', 'ACTIVO', default, default);
+insert into genero(id, codigo, descripcion, abreviatura, estado, fecha_creacion, fecha_actualizacion) values(default, 'GEN012306000002', 'FEMENINO', 'F', 'ACTIVO', default, default);

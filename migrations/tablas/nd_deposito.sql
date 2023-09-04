@@ -4,10 +4,10 @@ CREATE TABLE nd_deposito(
    fecha timestamp without time zone,
    comprobante varchar,
    valor double precision,
-   fecha_creacion	timestamp without time zone NOT NULL, 
-   fecha_actualizacion	timestamp without time zone NOT NULL,
    banco_id bigint,
    cuenta_propia bigint,
    nota_debito_id bigint,
+   fecha_creacion	timestamp without time zone NOT NULL default CURRENT_TIMESTAMP, 
+   fecha_actualizacion	timestamp without time zone NOT NULL default CURRENT_TIMESTAMP,
    PRIMARY KEY (id)
 );

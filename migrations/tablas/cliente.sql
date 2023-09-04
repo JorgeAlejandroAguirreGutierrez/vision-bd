@@ -12,8 +12,6 @@ CREATE TABLE cliente(
    latitudgeo	varchar,
    longitudgeo	varchar,
    monto_financiamiento	double precision,
-   fecha_creacion	timestamp without time zone NOT NULL, 
-   fecha_actualizacion	timestamp without time zone NOT NULL,
    tipo_identificacion_id	bigint,
    tipo_contribuyente_id	bigint,
    grupo_cliente_id	bigint,
@@ -26,5 +24,7 @@ CREATE TABLE cliente(
    origen_ingreso_id	bigint,
    segmento_id	bigint,
    empresa_id	bigint,
+   fecha_creacion	timestamp without time zone NOT NULL default CURRENT_TIMESTAMP, 
+   fecha_actualizacion	timestamp without time zone NOT NULL default CURRENT_TIMESTAMP,
    PRIMARY KEY (id)
 );

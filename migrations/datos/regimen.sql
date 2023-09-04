@@ -1,3 +1,3 @@
-regimenes.add(new Regimen("REG202301000001", "CONTRIBUYENTE NEGOCIO POPULAR RÉGIMEN RIMPE", "RIMPE", "SI","ACTIVO");
-regimenes.add(new Regimen("REG202301000002", "CONTRIBUYENTE RÉGIMEN RIMPE EMPRENDEDOR", "EMPRENDEDOR", "SI" , "ACTIVO");
-regimenes.add(new Regimen("REG202301000003", "CONTRIBUYENTE RÉGIMEN GENERAL", "GENERAL", "NO" , "ACTIVO");
+insert into regimen(id, codigo, descripcion, abreviatura, visible, estado, fecha_creacion, fecha_actualizacion) values(default, 'REG202301000001', 'CONTRIBUYENTE NEGOCIO POPULAR RÉGIMEN RIMPE', 'RIMPE', 'SI','ACTIVO', default, default);
+insert into regimen(id, codigo, descripcion, abreviatura, visible, estado, fecha_creacion, fecha_actualizacion) values(default, 'REG202301000002', 'CONTRIBUYENTE RÉGIMEN RIMPE EMPRENDEDOR', 'EMPRENDEDOR', 'SI' , 'ACTIVO', default, default);
+insert into regimen(id, codigo, descripcion, abreviatura, visible, estado, fecha_creacion, fecha_actualizacion) values(default, 'REG202301000003', 'CONTRIBUYENTE RÉGIMEN GENERAL', 'GENERAL', 'NO' , 'ACTIVO', default, default);

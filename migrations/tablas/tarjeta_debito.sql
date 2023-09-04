@@ -7,11 +7,11 @@ CREATE TABLE tarjeta_debito(
    nombre varchar,
    lote varchar,
    valor double precision,
-   fecha_creacion	timestamp without time zone NOT NULL, 
-   fecha_actualizacion	timestamp without time zone NOT NULL,
    banco_id bigint,
    operador_tarjeta_id bigint,
    franquicia_tarjeta_id bigint,
    factura_id bigint,
+   fecha_creacion	timestamp without time zone NOT NULL default CURRENT_TIMESTAMP, 
+   fecha_actualizacion	timestamp without time zone NOT NULL default CURRENT_TIMESTAMP,
    PRIMARY KEY (id)
 );

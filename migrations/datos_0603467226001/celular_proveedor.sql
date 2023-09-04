@@ -1,4 +1,4 @@
-insert into celular_proveedor values (default, "CPR011908000001", "0987654322", 1);
-insert into celular_proveedor values (default, "CPR011908000002", "0981234563", 1);
-insert into celular_proveedor values (default, "CPR011909000003", "0965431235", 2);
-insert into celular_proveedor values (default, "CPR011909000004", "0965431236", 2);
+insert into celular_proveedor(id, codigo, numero, proveedor_id, fecha_creacion, fecha_actualizacion) values(default, 'CPR011908000001', '0987654322', 1, default, default);
+insert into celular_proveedor(id, codigo, numero, proveedor_id, fecha_creacion, fecha_actualizacion) values(default, 'CPR011908000002', '0981234563', 1, default, default);
+insert into celular_proveedor(id, codigo, numero, proveedor_id, fecha_creacion, fecha_actualizacion) values(default, 'CPR011909000003', '0965431235', 2, default, default);
+insert into celular_proveedor(id, codigo, numero, proveedor_id, fecha_creacion, fecha_actualizacion) values(default, 'CPR011909000004', '0965431236', 2, default, default);

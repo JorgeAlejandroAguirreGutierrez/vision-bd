@@ -1,5 +1,5 @@
-insert into estado_civil(id, codigo, descripcion, abreviatura, estado, fecha_creacion, fecha_actualizacion) values (default, "ECV011907000001", "SOLTERO", "S", "ACTIVO");
-insert into estado_civil(id, codigo, descripcion, abreviatura, estado, fecha_creacion, fecha_actualizacion) values (default, "ECV011907000002", "CASADO", "C", "ACTIVO");
-insert into estado_civil(id, codigo, descripcion, abreviatura, estado, fecha_creacion, fecha_actualizacion) values (default, "ECV011908000003", "VIUDO", "V", "ACTIVO");
-insert into estado_civil(id, codigo, descripcion, abreviatura, estado, fecha_creacion, fecha_actualizacion) values (default, "ECV011908000004", "DIVORCIADO", "D", "ACTIVO");
-insert into estado_civil(id, codigo, descripcion, abreviatura, estado, fecha_creacion, fecha_actualizacion) values (default, "ECV011909000005", "UNION LIBRE", "U", "ACTIVO");
+insert into estado_civil(id, codigo, descripcion, abreviatura, estado, fecha_creacion, fecha_actualizacion) values(default, 'ECV011907000001', 'SOLTERO', 'S', 'ACTIVO', default, default);
+insert into estado_civil(id, codigo, descripcion, abreviatura, estado, fecha_creacion, fecha_actualizacion) values(default, 'ECV011907000002', 'CASADO', 'C', 'ACTIVO', default, default);
+insert into estado_civil(id, codigo, descripcion, abreviatura, estado, fecha_creacion, fecha_actualizacion) values(default, 'ECV011908000003', 'VIUDO', 'V', 'ACTIVO', default, default);
+insert into estado_civil(id, codigo, descripcion, abreviatura, estado, fecha_creacion, fecha_actualizacion) values(default, 'ECV011908000004', 'DIVORCIADO', 'D', 'ACTIVO', default, default);
+insert into estado_civil(id, codigo, descripcion, abreviatura, estado, fecha_creacion, fecha_actualizacion) values(default, 'ECV011909000005', 'UNION LIBRE', 'U', 'ACTIVO', default, default);

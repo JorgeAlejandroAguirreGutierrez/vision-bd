@@ -8,11 +8,11 @@ CREATE TABLE nota_debito_compra_linea(
    iva_linea double precision,
    total_linea double precision,
    entregado varchar,
-   fecha_creacion	timestamp without time zone NOT NULL, 
-   fecha_actualizacion	timestamp without time zone NOT NULL,
    impuesto_id bigint,
    producto_id bigint,
    bodega_id bigint,
    nota_debito_compra_id bigint,
+   fecha_creacion	timestamp without time zone NOT NULL default CURRENT_TIMESTAMP, 
+   fecha_actualizacion	timestamp without time zone NOT NULL default CURRENT_TIMESTAMP,
    PRIMARY KEY (id)
 );
