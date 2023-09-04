@@ -31,14 +31,17 @@ exports.up = function(db) {
     }
 	baseFolder = path.join(__dirname, 'datos');
     files = fs.readdirSync(baseFolder);
+	console.log('datos');
     for (let file of files) {
         console.log(file);
         let sql = fs.readFileSync(`${baseFolder}/${file}`, 'utf8');
         db.runSql(sql);
         console.log('Ok........');
     }
+	/**
     baseFolder = path.join(__dirname, 'datos_0603467226001');
     files = fs.readdirSync(baseFolder);
+	console.log('datos_0603467226001');
     for (let file of files) {
         console.log(file);
         let sql = fs.readFileSync(`${baseFolder}/${file}`, 'utf8');
@@ -47,12 +50,13 @@ exports.up = function(db) {
     }
 	baseFolder = path.join(__dirname, 'datos_0601308661001');
     files = fs.readdirSync(baseFolder);
+	console.log('datos_0601308661001');
     for (let file of files) {
         console.log(file);
         let sql = fs.readFileSync(`${baseFolder}/${file}`, 'utf8');
         db.runSql(sql);
         console.log('Ok........');
-    }
+    }**/
     return db.runSql('COMMIT');    
   } catch (err) {
     console.error('Fail......');
@@ -95,7 +99,7 @@ exports.down = function(db) {
 		DROP TABLE IF EXISTS estado_civil;
 		DROP TABLE IF EXISTS factura;
 		DROP TABLE IF EXISTS factura_compra;
-		DROP TABLE IF EXISTS factura_comnpra_linea;
+		DROP TABLE IF EXISTS factura_compra_linea;
 		DROP TABLE IF EXISTS factura_linea;
 		DROP TABLE IF EXISTS forma_pago;
 		DROP TABLE IF EXISTS franquicia_tarjeta;
@@ -117,7 +121,7 @@ exports.down = function(db) {
 		DROP TABLE IF EXISTS nd_transferencia;
 		DROP TABLE IF EXISTS nota_credito;
 		DROP TABLE IF EXISTS nota_credito_compra;
-		DROP TABLE IF EXISTS nota_credito_compra;
+		DROP TABLE IF EXISTS nota_credito_compra_linea;
 		DROP TABLE IF EXISTS nota_credito_linea;
 		DROP TABLE IF EXISTS nota_debito;
 		DROP TABLE IF EXISTS nota_debito_compra;
