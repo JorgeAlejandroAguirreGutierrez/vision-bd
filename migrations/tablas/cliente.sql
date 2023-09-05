@@ -15,7 +15,7 @@ CREATE TABLE cliente(
    tipo_identificacion_id	bigint,
    tipo_contribuyente_id	bigint,
    grupo_cliente_id	bigint,
-   forma_pago	bigint,
+   forma_pago_id	bigint,
    plazo_credito_id	bigint,
    ubicacion_id bigint,
    genero_id	bigint,
