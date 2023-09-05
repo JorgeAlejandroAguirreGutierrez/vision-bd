@@ -47,10 +47,18 @@ exports.up = function(db) {
         db.runSql(sql);
         console.log('Ok........');
     }
-	
 	baseFolder = path.join(__dirname, 'datos_0601308661001');
     files = fs.readdirSync(baseFolder);
 	console.log('datos_0601308661001');
+    for (let file of files) {
+        console.log(file);
+        let sql = fs.readFileSync(`${baseFolder}/${file}`, 'utf8');
+        db.runSql(sql);
+        console.log('Ok........');
+    }
+	baseFolder = path.join(__dirname, 'datos_0603529348001');
+    files = fs.readdirSync(baseFolder);
+	console.log('datos_0603529348001');
     for (let file of files) {
         console.log(file);
         let sql = fs.readFileSync(`${baseFolder}/${file}`, 'utf8');

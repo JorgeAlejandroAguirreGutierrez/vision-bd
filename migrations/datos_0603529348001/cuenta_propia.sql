@@ -1,0 +1,1 @@
+insert into cuenta_propia(id, codigo, tipo_cuenta, nombre, numero, estado, banco_id, empresa_id, fecha_creacion, fecha_actualizacion) values(default, "CTP032309000001","AHORROS","DIANA MOLINA","20001056989", "ACTIVO", 11, 3, default, default);

@@ -1,1 +1,1 @@
-insert into telefono_establecimiento(id, codigo, numero, establecimiento_id, fecha_creacion, fecha_actualizacion) values (default, 'TEE202308000001', '03-296-4123', 4, default, default);
+insert into telefono_establecimiento(id, codigo, numero, establecimiento_id, fecha_creacion, fecha_actualizacion) values(default, 'TEE202308000001', '03-296-4123', 4, default, default);
