@@ -38,27 +38,27 @@ exports.up = function(db) {
         db.runSql(sql);
         console.log('Ok........');
     }
-    baseFolder = path.join(__dirname, 'datos_0603467226001');
+    baseFolder = path.join(__dirname, 'datos_DELGADO DAQUILEMA MARIO RUBEN');
     files = fs.readdirSync(baseFolder);
-	console.log('datos_0603467226001');
+	console.log('datos_DELGADO DAQUILEMA MARIO RUBEN');
     for (let file of files) {
         console.log(file);
         let sql = fs.readFileSync(`${baseFolder}/${file}`, 'utf8');
         db.runSql(sql);
         console.log('Ok........');
     }
-	baseFolder = path.join(__dirname, 'datos_0601308661001');
+	baseFolder = path.join(__dirname, 'datos_POMAGUALLI PIRAY AYDA ROMELIA');
     files = fs.readdirSync(baseFolder);
-	console.log('datos_0601308661001');
+	console.log('datos_POMAGUALLI PIRAY AYDA ROMELIA');
     for (let file of files) {
         console.log(file);
         let sql = fs.readFileSync(`${baseFolder}/${file}`, 'utf8');
         db.runSql(sql);
         console.log('Ok........');
     }
-	baseFolder = path.join(__dirname, 'datos_0603529348001');
+	baseFolder = path.join(__dirname, 'datos_MOLINA NOGUERA DIANA CATALINA');
     files = fs.readdirSync(baseFolder);
-	console.log('datos_0603529348001');
+	console.log('datos_MOLINA NOGUERA DIANA CATALINA');
     for (let file of files) {
         console.log(file);
         let sql = fs.readFileSync(`${baseFolder}/${file}`, 'utf8');
