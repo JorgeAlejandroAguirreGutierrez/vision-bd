@@ -10,7 +10,7 @@ CREATE TABLE factura_compra(
    valor_distribuido_total double precision,
    valor_Descuento_total double precision,
    porcentaje_descuento_total double precision,
-   valor_procentaje_descuento_total double precision,
+   valor_porcentaje_descuento_total double precision,
    subtotal double precision,
    descuento double precision,
    subtotal_gravado_con_descuento double precision,

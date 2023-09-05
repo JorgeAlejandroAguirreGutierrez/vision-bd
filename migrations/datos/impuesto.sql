@@ -1,4 +1,4 @@
 insert into impuesto(id, codigo, codigo_sri, descripcion, abreviatura, porcentaje, estado, fecha_creacion, fecha_actualizacion) values(default, 'IMP012001000001', '0', 'IVA', '0 %', 0, 'ACTIVO', default, default);
 insert into impuesto(id, codigo, codigo_sri, descripcion, abreviatura, porcentaje, estado, fecha_creacion, fecha_actualizacion) values(default, 'IMP012001000002', '2', 'IVA', '12 %', 12, 'ACTIVO', default, default);
 insert into impuesto(id, codigo, codigo_sri, descripcion, abreviatura, porcentaje, estado, fecha_creacion, fecha_actualizacion) values(default, 'IMP012001000003', '3', 'IVA', '14 %', 14, 'ACTIVO', default, default);
-insert into impuesto(id, codigo, codigo_sri, descripcion, abreviatura, porcentaje, estado, fecha_creacion, fecha_actualizacion) values(default, 'IMP012001000004', '8', 'IVA diferenciado', '8 %', 8, 'ACTIVO', default, default);
+insert into impuesto(id, codigo, codigo_sri, descripcion, abreviatura, porcentaje, estado, fecha_creacion, fecha_actualizacion) values(default, 'IMP012001000004', '8', 'IVA DIFERENCIADO', '8 %', 8, 'ACTIVO', default, default);
