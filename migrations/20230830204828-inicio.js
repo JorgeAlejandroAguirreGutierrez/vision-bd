@@ -38,6 +38,18 @@ exports.up = function(db) {
         db.runSql(sql);
         console.log('Ok........');
     }
+	if(process.env.MIGRATION_ENV != process.env.MIGRATION_TEST)	{
+		baseFolder = path.join(__dirname, 'base');
+		files = fs.readdirSync(baseFolder);
+		console.log('base');
+		for (let file of files) {
+			console.log(file);
+			let sql = fs.readFileSync(`${baseFolder}/${file}`, 'utf8');
+			db.runSql(sql);
+			console.log('Ok........');
+		}
+	}
+	
     baseFolder = path.join(__dirname, 'datos_DELGADO DAQUILEMA MARIO RUBEN');
     files = fs.readdirSync(baseFolder);
 	console.log('datos_DELGADO DAQUILEMA MARIO RUBEN');
