@@ -3,7 +3,7 @@ CREATE TABLE nota_debito_linea(
    codigo 	varchar,
    posicion bigint,
    entregado varchar,
-   consginacion varchar,
+   consignacion varchar,
    cantidad bigint,
    precio_unitario double precision,
    valor_descuento_linea double precision,
