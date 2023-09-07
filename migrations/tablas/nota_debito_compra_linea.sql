@@ -10,7 +10,6 @@ CREATE TABLE nota_debito_compra_linea(
    entregado varchar,
    impuesto_id bigint,
    producto_id bigint,
-   bodega_id bigint,
    nota_debito_compra_id bigint,
    fecha_creacion	timestamp without time zone NOT NULL default CURRENT_TIMESTAMP, 
    fecha_actualizacion	timestamp without time zone NOT NULL default CURRENT_TIMESTAMP,
