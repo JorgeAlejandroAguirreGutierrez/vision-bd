@@ -9,7 +9,7 @@ CREATE TABLE usuario(
    correo varchar,
    contrasena varchar,
    confirmar_contrasena varchar,
-   avatar oid,
+   avatar varchar,
    cambiar_contrasena varchar,
    pregunta varchar,
    respuesta varchar,

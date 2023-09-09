@@ -6,7 +6,7 @@ CREATE TABLE empresa(
    nombre_comercial varchar,
    representante_legal varchar,
    cargo_representante_legal varchar,
-   logo oid,
+   logo varchar,
    direccion varchar,
    obligado_contabilidad varchar,
    especial varchar,
