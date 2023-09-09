@@ -19,7 +19,7 @@ CREATE TABLE nota_debito(
    total double precision,
    comentario varchar,
    factura_id bigint,
-   sesion_id bigint,
+   usuario_id bigint,
    tipo_comprobante_id bigint,
    empresa_id bigint,
    total_recaudacion double precision,

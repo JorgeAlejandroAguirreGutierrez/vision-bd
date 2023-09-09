@@ -1,0 +1,1 @@
+insert into medida(id, codigo, tipo, descripcion, abreviatura, estado, empresa_id, fecha_creacion, fecha_actualizacion) values(default, 'MED042309000001', 'UNIDAD', 'UNIDAD', 'UNI', 'ACTIVO', 4, default, default);

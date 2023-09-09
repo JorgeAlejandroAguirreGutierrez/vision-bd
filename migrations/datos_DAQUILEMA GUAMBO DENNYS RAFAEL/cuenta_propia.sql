@@ -1,0 +1,1 @@
+insert into cuenta_propia(id, codigo, tipo_cuenta, nombre, numero, estado, banco_id, empresa_id, fecha_creacion, fecha_actualizacion) values (default, 'CTP042309000001','AHORROS','INGENIO','2203684971', 'ACTIVO', 20, 4, default, default);

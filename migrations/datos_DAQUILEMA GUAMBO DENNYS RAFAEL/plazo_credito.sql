@@ -1,0 +1,1 @@
+insert into plazo_credito(id, codigo, descripcion, abreviatura, plazo, estado, empresa_id, fecha_creacion, fecha_actualizacion) values (default, 'PCR042309000001', 'SIN CREDITO', 'SCR', 0, 'ACTIVO', 4, default, default);

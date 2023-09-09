@@ -16,7 +16,7 @@ CREATE TABLE nota_credito_compra(
    total double precision,
    comentario varchar,
    factura_compra_id bigint,
-   sesion_id bigint,
+   usuario_id bigint,
    tipo_comprobante_id bigint,
    empresa_id bigint,
    fecha_creacion	timestamp without time zone NOT NULL default CURRENT_TIMESTAMP, 

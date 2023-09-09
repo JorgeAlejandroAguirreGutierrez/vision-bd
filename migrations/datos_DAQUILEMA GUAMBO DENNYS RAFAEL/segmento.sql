@@ -1,0 +1,1 @@
+insert into segmento(id, codigo, margen_ganancia, descripcion, abreviatura, estado, empresa_id, fecha_creacion, fecha_actualizacion) values(default, 'SEG042309000001', 6, 'CLIENTE FINAL', 'CLF', 'ACTIVO', 4, default, default);

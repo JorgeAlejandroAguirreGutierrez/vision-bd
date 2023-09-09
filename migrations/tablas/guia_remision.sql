@@ -23,7 +23,7 @@ CREATE TABLE guia_remision(
    estado varchar,
    proceso_sri varchar,
    tipo_comprobante_id bigint,
-   sesion_id bigint,
+   usuario_id bigint,
    transportista_id bigint,
    vehiculo_id bigint,
    factura_id bigint,
