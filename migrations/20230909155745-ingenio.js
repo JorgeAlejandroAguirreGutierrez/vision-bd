@@ -20,8 +20,8 @@ exports.setup = function(options, seedLink) {
 };
 
 exports.up = function(db) {
-  baseFolder = path.join(__dirname, 'datos_DAQUILEMA GUAMBO DENNYS RAFAEL');
-  files = fs.readdirSync(baseFolder);
+  let baseFolder = path.join(__dirname, 'datos_DAQUILEMA GUAMBO DENNYS RAFAEL');
+  let files = fs.readdirSync(baseFolder);
 	console.log('datos_DAQUILEMA GUAMBO DENNYS RAFAEL');
     for (let file of files) {
         console.log(file);
