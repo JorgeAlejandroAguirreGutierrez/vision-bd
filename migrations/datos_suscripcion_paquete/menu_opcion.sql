@@ -1,0 +1,2 @@
+insert into menu_opcion (id, codigo, modulo, opcion, operacion, menu, tabla, abreviatura, estado, fecha_creacion, fecha_actualizacion) values(default, 'MEN202305000119', 'ACCESOS', 'PAQUETES','CREAR', 'SI', 'paquete', 'PAQ', 'ACTIVO', default, default);
+insert into menu_opcion (id, codigo, modulo, opcion, operacion, menu, tabla, abreviatura, estado, fecha_creacion, fecha_actualizacion) values(default, 'MEN202305000120', 'ACCESOS', 'SUSCRIPCIONES','CREAR', 'SI', 'suscripcion', 'SUS', 'ACTIVO', default, default);

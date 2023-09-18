@@ -1,0 +1,2 @@
+insert into permiso(id, codigo, estado, menu_opcion_id, perfil_id, fecha_creacion, fecha_actualizacion) values(default, 'PER022306000182', 'ACTIVO', 119, 1, default, default);
+insert into permiso(id, codigo, estado, menu_opcion_id, perfil_id, fecha_creacion, fecha_actualizacion) values(default, 'PER022306000183', 'ACTIVO', 120, 1, default, default);
