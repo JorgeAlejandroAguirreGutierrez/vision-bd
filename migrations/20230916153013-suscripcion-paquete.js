@@ -53,6 +53,10 @@ exports.down = function(db) {
 	    BEGIN
         DROP TABLE IF EXISTS suscripcion;
         DROP TABLE IF EXISTS paquete;
+        DELETE FROM permiso WHERE codigo = 'PER202309000182';
+        DELETE FROM permiso WHERE codigo = 'PER202309000183';
+        DELETE FROM menu_opcion where codigo = 'MEN202309000119';
+        DELETE FROM menu_opcion where codigo = 'MEN202309000120';
 	    END $$;
 	  `);
 	  return db.runSql('COMMIT');
