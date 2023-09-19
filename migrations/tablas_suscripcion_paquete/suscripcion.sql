@@ -3,9 +3,13 @@ CREATE TABLE suscripcion(
    codigo 	varchar,
    fecha_inicial 	timestamp without time zone,
    fecha_final 	timestamp without time zone,
+   conteoComprobantes bigint,
    estado	varchar,
    paquete_id bigint,
    empresa_id bigint,
+   numero_transaccion varchar,
+   fecha_transaccion timestamp without time zone,
+   banco_id bigint,
    fecha_creacion	timestamp without time zone NOT NULL default CURRENT_TIMESTAMP, 
    fecha_actualizacion	timestamp without time zone NOT NULL default CURRENT_TIMESTAMP,
    PRIMARY KEY (id)
