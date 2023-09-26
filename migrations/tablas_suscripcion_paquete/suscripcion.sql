@@ -3,7 +3,7 @@ CREATE TABLE suscripcion(
    codigo 	varchar,
    fecha_inicial 	timestamp without time zone,
    fecha_final 	timestamp without time zone,
-   conteoComprobantes bigint,
+   conteo_comprobantes bigint,
    estado	varchar,
    paquete_id bigint,
    empresa_id bigint,
