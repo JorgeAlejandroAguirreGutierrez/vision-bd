@@ -1,5 +1,5 @@
-insert into secuencial(id, codigo, numero_siguiente, maximo, estado, tipo_comprobante_id, estacion_id, fecha_creacion, fecha_actualizacion) values(default, 'SEC042309000001', 1, 10, 'ACTIVO', 2, 13, default, default);
-insert into secuencial(id, codigo, numero_siguiente, maximo, estado, tipo_comprobante_id, estacion_id, fecha_creacion, fecha_actualizacion) values(default, 'SEC042309000002', 1, 10, 'ACTIVO', 4, 13, default, default);
-insert into secuencial(id, codigo, numero_siguiente, maximo, estado, tipo_comprobante_id, estacion_id, fecha_creacion, fecha_actualizacion) values(default, 'SEC042309000003', 1, 10, 'ACTIVO', 5, 13, default, default);
-insert into secuencial(id, codigo, numero_siguiente, maximo, estado, tipo_comprobante_id, estacion_id, fecha_creacion, fecha_actualizacion) values(default, 'SEC042309000004', 1, 10, 'ACTIVO', 6, 13, default, default);
-insert into secuencial(id, codigo, numero_siguiente, maximo, estado, tipo_comprobante_id, estacion_id, fecha_creacion, fecha_actualizacion) values(default, 'SEC042309000005', 1, 10, 'ACTIVO', 7, 13, default, default);
+insert into secuencial(id, codigo, numero_siguiente, estado, tipo_comprobante_id, estacion_id, fecha_creacion, fecha_actualizacion) values(default, 'SEC042309000001', 1, 'ACTIVO', 2, 13, default, default);
+insert into secuencial(id, codigo, numero_siguiente, estado, tipo_comprobante_id, estacion_id, fecha_creacion, fecha_actualizacion) values(default, 'SEC042309000002', 1, 'ACTIVO', 4, 13, default, default);
+insert into secuencial(id, codigo, numero_siguiente, estado, tipo_comprobante_id, estacion_id, fecha_creacion, fecha_actualizacion) values(default, 'SEC042309000003', 1, 'ACTIVO', 5, 13, default, default);
+insert into secuencial(id, codigo, numero_siguiente, estado, tipo_comprobante_id, estacion_id, fecha_creacion, fecha_actualizacion) values(default, 'SEC042309000004', 1, 'ACTIVO', 6, 13, default, default);
+insert into secuencial(id, codigo, numero_siguiente, estado, tipo_comprobante_id, estacion_id, fecha_creacion, fecha_actualizacion) values(default, 'SEC042309000005', 1, 'ACTIVO', 7, 13, default, default);
