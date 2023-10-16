@@ -33,6 +33,7 @@ exports.up = function(db) {
         fecha_actualizacion	timestamp without time zone NOT NULL default CURRENT_TIMESTAMP,
         PRIMARY KEY (id)
       );
+      alter table factura_compra_linea add column nombre_producto varchar;
       insert into menu_opcion (id, codigo, modulo, opcion, operacion, menu, tabla, abreviatura, estado, fecha_creacion, fecha_actualizacion) values(121, 'MEN202309000121', 'CONFIGURACIONES', 'SINCRONIZACION','CREAR', 'SI', 'sincronizacion', 'SIN', 'ACTIVO', default, default);
 	    insert into permiso(id, codigo, estado, menu_opcion_id, perfil_id, fecha_creacion, fecha_actualizacion) values(default, 'PER202309000186', 'ACTIVO', 121, 1, default, default);
       insert into permiso(id, codigo, estado, menu_opcion_id, perfil_id, fecha_creacion, fecha_actualizacion) values(default, 'PER202309000187', 'ACTIVO', 121, 2, default, default);
@@ -52,6 +53,7 @@ exports.down = function(db) {
 	    DO $$ DECLARE
 	    BEGIN
         DROP TABLE IF EXISTS sincronizacion;
+        alter table factura_compra_linea drop column nombre_producto;
         DELETE FROM menu_opcion where codigo = 'MEN202309000121';
         DELETE FROM permiso WHERE codigo = 'PER202309000186';
         DELETE FROM permiso WHERE codigo = 'PER202309000187';
