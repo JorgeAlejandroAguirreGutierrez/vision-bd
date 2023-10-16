@@ -49,7 +49,6 @@ exports.up = function(db) {
 			console.log('Ok........');
 		}
 	}
-	
     baseFolder = path.join(__dirname, 'datos_DELGADO DAQUILEMA MARIO RUBEN');
     files = fs.readdirSync(baseFolder);
 	console.log('datos_DELGADO DAQUILEMA MARIO RUBEN');

@@ -1,4 +1,2 @@
-### cliente_base ###
-migrations/base/cliente_base.sql
 .env
 database.json
