@@ -20,6 +20,7 @@ exports.setup = function(options, seedLink) {
 };
 
 exports.up = function(db) {
+  console.log('Iniciando Modificacion........');
   try {
     if(process.env.MIGRATION_ENV != process.env.MIGRATION_TEST)	{
       let baseFolder = path.join(__dirname, 'base-pichincha');
@@ -30,9 +31,9 @@ exports.up = function(db) {
         let sql = fs.readFileSync(`${baseFolder}/${file}`, 'utf8');
         db.runSql(sql);
         console.log('Ok........');
-      }
-      return db.runSql('COMMIT');    
+      } 
     }
+    return db.runSql('COMMIT');   
   } catch (err) {
     console.error('Fail......');
     throw err;

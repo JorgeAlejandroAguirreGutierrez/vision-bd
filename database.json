@@ -10,10 +10,10 @@
     },
 	"test": {
         "driver": "pg",
-        "user": "nqlitrki",
-        "password": "CHj8KL293Z6WVA4u20EVgdKGxXwr4a-i",
-        "host": "peanut.db.elephantsql.com",
-        "database": "nqlitrki",
+        "user": "xdhkecusyqwuwf",
+        "password": "48d8e44f007b7dbd3085427190da1181dccffc031495d1581d88ec3f65fb5164",
+        "host": "ec2-44-213-151-75.compute-1.amazonaws.com",
+        "database": "dasfhu24l1rlke",
         "port": "5432",
 		"ssl": {
       		"rejectUnauthorized": false
