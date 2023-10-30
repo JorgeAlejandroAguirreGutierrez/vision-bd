@@ -10,10 +10,10 @@
     },
 	"test": {
         "driver": "pg",
-        "user": "xdhkecusyqwuwf",
-        "password": "48d8e44f007b7dbd3085427190da1181dccffc031495d1581d88ec3f65fb5164",
-        "host": "ec2-44-213-151-75.compute-1.amazonaws.com",
-        "database": "dasfhu24l1rlke",
+        "user": "knyqqnzeauonin",
+        "password": "8f165e6dc9b352aa98fb74555b135950db390ab864c340d7bf35a3f058818dac",
+        "host": "ec2-3-230-24-12.compute-1.amazonaws.com",
+        "database": "d86sa9akro8me2",
         "port": "5432",
 		"ssl": {
       		"rejectUnauthorized": false

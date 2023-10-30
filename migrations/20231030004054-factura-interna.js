@@ -19,10 +19,9 @@ exports.up = function(db) {
   try {
 	  db.runSql(`
 	    DO $$ DECLARE
-	    BEGIN
-            ALTER TABLE nota_credito_compra RENAME COLUMN descuento TO descuento_gravado;
-            ALTER TABLE nota_credito_compra ADD COLUMN descuento_no_gravado double precision;
-        END $$;
+        BEGIN
+        insert into tipo_comprobante(id, codigo, codigo_sri, descripcion, abreviatura, nombre_tabla, electronica, estado, fecha_creacion, fecha_actualizacion) values(default, 'TCO000016', 'NA', 'FACTURA INTERNA', 'FACTURA INTERNA', null, 'NO', 'ACTIVO', default, default);
+      END $$;
 	  `);
 	  return db.runSql('COMMIT');
    } catch (err) {
@@ -32,17 +31,17 @@ exports.up = function(db) {
 };
 
 exports.down = function(db) {
+  console.log('Iniciando Delete........');
   try {
 	  db.runSql(`
 	    DO $$ DECLARE
 	    BEGIN
-        ALTER TABLE nota_credito_compra RENAME COLUMN  descuento_gravado TO descuento;
-        ALTER TABLE nota_credito_compra DROP COLUMN descuento_no_gravado;
+        DELETE FROM tipo_comprobante where codigo = 'TCO000016';
 	    END $$;
 	  `);
 	  return db.runSql('COMMIT');
    } catch (err) {
-    console.error('Error......');
+    console.error('Fail......');
     throw err;
   }
 };
