@@ -1,0 +1,9 @@
+insert into establecimiento(id, codigo, codigo_sri, descripcion, direccion, latitudgeo, longitudgeo, estado, regimen_id, ubicacion_id, empresa_id, fecha_creacion, fecha_actualizacion) values(9, 'EST052311000001', '001', 'AERO&VACACIONES CIA.LTDA', 'PRIMERA CONSTITUYENTE 3022 JUAN MONTALVO', -1.6719601146175827, -78.65041698970857, 'ACTIVO', 3, 248, 5, default, default);
+
+insert into establecimiento(id, codigo, codigo_sri, descripcion, direccion, latitudgeo, longitudgeo, estado, regimen_id, ubicacion_id, empresa_id, fecha_creacion, fecha_actualizacion) values(10, 'EST062311000001', '002', 'MANYA MONAR SONIA PAULINA', 'CHILE 2413 Y LARREA', -1.6719601146175827, -78.65041698970857, 'ACTIVO', 3, 248, 6, default, default);
+
+insert into establecimiento(id, codigo, codigo_sri, descripcion, direccion, latitudgeo, longitudgeo, estado, regimen_id, ubicacion_id, empresa_id, fecha_creacion, fecha_actualizacion) values(11, 'EST072311000001', '001', 'DELGADO DAQUILEMA MARIO RUBEN', 'BERLIN Y AMSTERDAM', -1.6719601146175827, -78.65041698970857, 'ACTIVO', 3, 248, 7, default, default);
+
+insert into establecimiento(id, codigo, codigo_sri, descripcion, direccion, latitudgeo, longitudgeo, estado, regimen_id, ubicacion_id, empresa_id, fecha_creacion, fecha_actualizacion) values(12, 'EST082311000001', '001', 'MENDOZA ALDAZ MAYRA PATRICIA', 'BERLIN NO. 11 Y AMSTERDAM', -1.6719601146175827, -78.65041698970857, 'ACTIVO', 3, 248, 8, default, default);
+
+insert into establecimiento(id, codigo, codigo_sri, descripcion, direccion, latitudgeo, longitudgeo, estado, regimen_id, ubicacion_id, empresa_id, fecha_creacion, fecha_actualizacion) values(13, 'EST092311000001', '001', 'ARANDA PESANTES MARIELA ROCIO', 'COLON Y 10 DE AGOSTO', -1.6719601146175827, -78.65041698970857, 'ACTIVO', 2, 248, 9, default, default);
