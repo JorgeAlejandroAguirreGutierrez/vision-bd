@@ -21,7 +21,7 @@ exports.up = function(db) {
 	    DO $$ DECLARE
         BEGIN
         ALTER TABLE empresa ADD COLUMN facturacion_interna varchar;
-        UPDATE empresa SET facturacion_interna='SI'
+        UPDATE empresa SET facturacion_interna='SI';
         insert into tipo_comprobante(id, codigo, codigo_sri, descripcion, abreviatura, nombre_tabla, electronica, estado, fecha_creacion, fecha_actualizacion) values(default, 'TCO000016', 'NA', 'FACTURA INTERNA', 'FACTURA INTERNA', null, 'NO', 'ACTIVO', default, default);
       END $$;
 	  `);
