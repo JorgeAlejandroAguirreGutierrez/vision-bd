@@ -20,6 +20,5 @@ CREATE TABLE empresa(
    fecha_creacion	timestamp without time zone NOT NULL default CURRENT_TIMESTAMP, 
    fecha_actualizacion	timestamp without time zone NOT NULL default CURRENT_TIMESTAMP,
    contraseña_sri varchar,
-   facturacion_interna varchar,
    PRIMARY KEY (id)
 );
