@@ -1,0 +1,6 @@
+insert into secuencial(id, codigo, numero_siguiente, estado, tipo_comprobante_id, estacion_id, fecha_creacion, fecha_actualizacion) values(default, 'SEC102401000001', 203, 'ACTIVO', 2, 19, default, default);
+insert into secuencial(id, codigo, numero_siguiente, estado, tipo_comprobante_id, estacion_id, fecha_creacion, fecha_actualizacion) values(default, 'SEC102401000002', 1, 'ACTIVO', 4, 19, default, default);
+insert into secuencial(id, codigo, numero_siguiente, estado, tipo_comprobante_id, estacion_id, fecha_creacion, fecha_actualizacion) values(default, 'SEC102401000003', 1, 'ACTIVO', 5, 19, default, default);
+insert into secuencial(id, codigo, numero_siguiente, estado, tipo_comprobante_id, estacion_id, fecha_creacion, fecha_actualizacion) values(default, 'SEC102401000004', 1, 'ACTIVO', 6, 19, default, default);
+insert into secuencial(id, codigo, numero_siguiente, estado, tipo_comprobante_id, estacion_id, fecha_creacion, fecha_actualizacion) values(default, 'SEC102401000005', 1, 'ACTIVO', 7, 19, default, default);
+insert into secuencial(id, codigo, numero_siguiente, estado, tipo_comprobante_id, estacion_id, fecha_creacion, fecha_actualizacion) values(default, 'SEC102401000006', 1, 'ACTIVO', 16, 19, default, default);

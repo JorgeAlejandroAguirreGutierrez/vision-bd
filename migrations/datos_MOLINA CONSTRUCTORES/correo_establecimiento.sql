@@ -1,0 +1,1 @@
+insert into correo_establecimiento(id, codigo, email, establecimiento_id, fecha_creacion, fecha_actualizacion) values (default, 'COE112401000001', 'pliniomolina@hotmail.es', 15, default, default);
