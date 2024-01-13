@@ -1,0 +1,1 @@
+insert into establecimiento(id, codigo, codigo_sri, descripcion, direccion, latitudgeo, longitudgeo, estado, regimen_id, ubicacion_id, empresa_id, fecha_creacion, fecha_actualizacion) values (14, 'EST102401000001', '001', 'CONSULTORIO', 'LARREA 17-08 Y COLOMBIA', -1.6719601146175827, -78.65041698970857, 'ACTIVO', 3, 248, 10, default, default);

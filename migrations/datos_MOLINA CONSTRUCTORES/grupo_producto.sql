@@ -1,0 +1,1 @@
+--insert into grupo_producto(id, codigo, grupo, subgrupo, seccion, linea, sublinea, presentacion, estado, categoria_producto_id, cuenta_contable_id, empresa_id, fecha_creacion, fecha_actualizacion) values(default, 'GPR022308000001','BEBIDAS','NO ALCOHOLICAS','SIN GAS','AGUA','TESALIA','500 ML','ACTIVO', 1,323, 2, default, default);
