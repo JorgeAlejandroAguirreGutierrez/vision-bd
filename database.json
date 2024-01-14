@@ -21,10 +21,10 @@
     },
     "prod": {
         "driver": "pg",
-        "user": "izpxxbdgahciaf",
-        "password": "df2464ba0e80e7adb8339dc26d38010b19d2803b525e815c339257307df89f78",
-        "host": "ec2-44-214-132-149.compute-1.amazonaws.com",
-        "database": "d9m2i8pnj98amd",
+        "user": "fzcbxrvsudoilc",
+        "password": "c82dc2cc1ba191f4be05841f963c3f4595459a10cf7384ddabc4d6e4cae52bf0",
+        "host": "ec2-3-212-29-93.compute-1.amazonaws.com",
+        "database": "d7gtv9lbrh0diq",
         "port": "5432",
         "ssl": {
       		"rejectUnauthorized": false

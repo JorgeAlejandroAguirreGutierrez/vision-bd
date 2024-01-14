@@ -21,26 +21,24 @@ exports.setup = function(options, seedLink) {
 
 exports.up = function(db) {
   try {
-   
-    baseFolder = path.join(__dirname, 'datos_MOLINA AVILES PLINIO CORNELIO');
-    files = fs.readdirSync(baseFolder);
-	console.log('datos_MOLINA AVILES PLINIO CORNELIO');
+    let baseFolder = path.join(__dirname, 'datos_MOLINA AVILES PLINIO CORNELIO');
+    let files = fs.readdirSync(baseFolder);
+	  console.log('datos_MOLINA AVILES PLINIO CORNELIO');
     for (let file of files) {
         console.log(file);
         let sql = fs.readFileSync(`${baseFolder}/${file}`, 'utf8');
         db.runSql(sql);
         console.log('Ok........');
     }
-	baseFolder = path.join(__dirname, 'datos_MOLINA CONSTRUCTORES');
+	  baseFolder = path.join(__dirname, 'datos_MOLINA CONSTRUCTORES');
     files = fs.readdirSync(baseFolder);
-	console.log('datos_MOLINA CONSTRUCTORES');
+	  console.log('datos_MOLINA CONSTRUCTORES');
     for (let file of files) {
         console.log(file);
         let sql = fs.readFileSync(`${baseFolder}/${file}`, 'utf8');
         db.runSql(sql);
         console.log('Ok........');
     }
-
     return db.runSql('COMMIT');    
   } catch (err) {
     console.error('Fail......');
