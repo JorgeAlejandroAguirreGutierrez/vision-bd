@@ -1,0 +1,1 @@
+--insert into kardex(id, codigo, fecha, referencia, id_linea, entrada, salida, saldo, debe, haber, costo_promedio, costo_total, tipo_comprobante_id, tipo_operacion_id, bodega_id, producto_id, fecha_creacion, fecha_actualizacion) values(default, 'KAR202309000001', '2023-08-01', '', 0, 100, 0, 100, 0.6818, 0, 0.6818, 68.18, 1, 1, 4, 9, default, default);

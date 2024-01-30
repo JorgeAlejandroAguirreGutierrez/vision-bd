@@ -1,0 +1,2 @@
+insert into estacion(id, codigo, codigo_sri, descripcion, dispositivo, ip, punto_venta, estado, regimen_id, establecimiento_id, fecha_creacion, fecha_actualizacion) values 
+(21, 'ESN122401000001', '001', 'VENTAS', 'PC', '192.168.1.1', 'SI', 'ACTIVO', null, 16, default, default);

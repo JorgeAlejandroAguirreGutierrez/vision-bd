@@ -1,0 +1,2 @@
+insert into usuario(id, codigo, identificacion, apodo, nombre, telefono, celular, correo, contrasena, confirmar_contrasena, avatar, cambiar_contrasena, pregunta, respuesta, estado, perfil_id, estacion_id, fecha_creacion, fecha_actualizacion) values 
+(18, 'USU202401000018', '0605962133', 'ECHUGA', 'CHUGA LARA ERIKA MIREYA', '', '0995929442', 'erikachuga21@gmail.com', '827ccb0eea8a706c4c34a16891f84e7b', '827ccb0eea8a706c4c34a16891f84e7b', 'gerente.png', 'NO', '¿CUAL ES TU MARCA DE VEHICULO PREFERIDO?', 'MAZDA', 'ACTIVO', 2, 21, default, default);
