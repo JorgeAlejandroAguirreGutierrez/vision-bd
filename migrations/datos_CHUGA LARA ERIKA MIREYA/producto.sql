@@ -1,0 +1,1 @@
+--insert into producto(id, codigo, nombre, consignacion, estado, categoria_producto_id, grupo_producto_id, tipo_gasto_id, impuesto_id, medida_id, proveedor_id, empresa_id, fecha_creacion, fecha_actualizacion) values (default, 'PRO022308000001','AGUA TESALIA 500 ML', 'NO', 'ACTIVO', 1, 16, 2, 1, 35, 3, 2, default, default);

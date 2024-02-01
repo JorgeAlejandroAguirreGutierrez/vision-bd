@@ -1,0 +1,2 @@
+insert into establecimiento(id, codigo, codigo_sri, descripcion, direccion, latitudgeo, longitudgeo, estado, regimen_id, ubicacion_id, empresa_id, fecha_creacion, fecha_actualizacion) values 
+(16, 'EST122401000001', '001', 'ESTETICA Y CONSULTORÍA CANINA', 'CORDOVEZ 19 ALMAGRO MZ B', -1.6719601146175827, -78.65041698970857, 'ACTIVO', 1, 248, 12, default, default);
