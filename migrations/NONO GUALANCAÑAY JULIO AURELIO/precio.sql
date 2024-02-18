@@ -1,0 +1,1 @@
+--insert into precio(id, codigo, costo, margen_ganancia, precio_sin_iva, precio_venta_publico, precio_venta_publico_manual, utilidad, utilidad_porcentaje, estado, segmento_id, producto_id, fecha_creacion, fecha_actualizacion) values (default, 'PRE022308000001', 0.6818, 10, 0.75, 0.75, 0.75, 10, 10, 'ACTIVO', 5, 9, default, default);

@@ -1,0 +1,2 @@
+insert into grupo_proveedor(id, codigo, descripcion, abreviatura, estado, cuenta_contable_id, empresa_id, fecha_creacion, fecha_actualizacion) values 
+(default, 'GPR132401000001', 'PROVEEDOR GENERAL', 'PRG', 'ACTIVO', 4135, 13, default, default);
