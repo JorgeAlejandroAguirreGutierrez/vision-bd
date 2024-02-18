@@ -22,9 +22,9 @@ exports.setup = function(options, seedLink) {
 exports.up = function(db) {
   console.log('Iniciando Modificacion........');
   try {
-    let baseFolder = path.join(__dirname, 'datos_CHUGA LARA ERIKA MIREYA');
+    let baseFolder = path.join(__dirname, 'datos_NONO GUALANCAÑAY JULIO AURELIO');
     let files = fs.readdirSync(baseFolder);
-	  console.log('datos_CHUGA LARA ERIKA MIREYA');
+	  console.log('datos_NONO GUALANCAÑAY JULIO AURELIO');
     for (let file of files) {
         console.log(file);
         let sql = fs.readFileSync(`${baseFolder}/${file}`, 'utf8');
