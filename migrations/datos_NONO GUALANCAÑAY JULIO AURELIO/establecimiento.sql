@@ -1,2 +1,2 @@
 insert into establecimiento(id, codigo, codigo_sri, descripcion, direccion, latitudgeo, longitudgeo, estado, regimen_id, ubicacion_id, empresa_id, fecha_creacion, fecha_actualizacion) values 
-(17, 'EST132401000001', '001', 'NONO GUALANCAÑAY JULIO AURELIO', 'BARRIO TIERRA NUEVA CALLES ANTONIO MORGAN Y DIONICIO DE ALCEDO ', -1.6719601146175827, -78.65041698970857, 'ACTIVO', 1, 248, 13, default, default);
+(17, 'EST132401000001', '001', 'NONO GUALANCAÑAY JULIO AURELIO', 'BARRIO TIERRA NUEVA CALLES ANTONIO MORGAN Y DIONICIO DE ALCEDO ', -1.6719601146175827, -78.65041698970857, 'ACTIVO', 3, 248, 13, default, default);
