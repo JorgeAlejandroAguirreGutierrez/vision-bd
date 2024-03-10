@@ -21,7 +21,7 @@ exports.up = function(db) {
 	    DO $$ DECLARE
 	    BEGIN
         alter table empresa add column gran_contribuyente varchar;
-        alter table empresa add column artesado_calificado varchar;
+        alter table empresa add column artesano_calificado varchar;
 	    END $$;
 	  `);
 	  return db.runSql('COMMIT');
@@ -38,7 +38,7 @@ exports.down = function(db) {
 	    DO $$ DECLARE
 	    BEGIN
       alter table empresa drop column gran_contribuyente;
-      alter table empresa drop column artesado_calificado;
+      alter table empresa drop column artesano_calificado;
 	    END $$;
 	  `);
 	  return db.runSql('COMMIT');
