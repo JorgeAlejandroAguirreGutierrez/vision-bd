@@ -22,6 +22,7 @@ exports.up = function(db) {
 	    BEGIN
         insert into impuesto(id, codigo, codigo_sri, descripcion, abreviatura, porcentaje, estado, fecha_creacion, fecha_actualizacion) values(default, 'IMP012001000006', '4', 'IVA', '15 %', 15, 'ACTIVO', default, default);
         insert into impuesto(id, codigo, codigo_sri, descripcion, abreviatura, porcentaje, estado, fecha_creacion, fecha_actualizacion) values(default, 'IMP012001000007', '5', 'IVA', '5 %', 5, 'ACTIVO', default, default);
+        insert into impuesto(id, codigo, codigo_sri, descripcion, abreviatura, porcentaje, estado, fecha_creacion, fecha_actualizacion) values(default, 'IMP012001000008', '10', 'IVA', '13 %', 13, 'ACTIVO', default, default);
 	    END $$;
 	  `);
 	  return db.runSql('COMMIT');
@@ -39,6 +40,7 @@ exports.down = function(db) {
 	    BEGIN
         delete from impuesto where codigo_sri='4';
         delete from impuesto where codigo_sri='5';
+        delete from impuesto where codigo_sri='10';
 	    END $$;
 	  `);
 	  return db.runSql('COMMIT');
