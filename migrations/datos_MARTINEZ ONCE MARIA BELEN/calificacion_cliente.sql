@@ -1,0 +1,5 @@
+insert into calificacion_cliente(id, codigo, descripcion, abreviatura, estado, empresa_id, fecha_creacion, fecha_actualizacion) values(default, 'CCL142401000001', 'EXELENTE', 'EX', 'ACTIVO', 14, default, default);
+insert into calificacion_cliente(id, codigo, descripcion, abreviatura, estado, empresa_id, fecha_creacion, fecha_actualizacion) values(default, 'CCL142401000002', 'MUY BUENO', 'MB', 'ACTIVO', 14, default, default);
+insert into calificacion_cliente(id, codigo, descripcion, abreviatura, estado, empresa_id, fecha_creacion, fecha_actualizacion) values(default, 'CCL142401000003', 'BUENO', 'BU', 'ACTIVO', 14, default, default);
+insert into calificacion_cliente(id, codigo, descripcion, abreviatura, estado, empresa_id, fecha_creacion, fecha_actualizacion) values(default, 'CCL142401000004', 'REGULAR', 'RE', 'ACTIVO', 14, default, default);
+insert into calificacion_cliente(id, codigo, descripcion, abreviatura, estado, empresa_id, fecha_creacion, fecha_actualizacion) values(default, 'CCL142401000005', 'MALO', 'MA', 'ACTIVO', 14, default, default);
