@@ -1,2 +1,2 @@
 insert into establecimiento(id, codigo, codigo_sri, descripcion, direccion, latitudgeo, longitudgeo, estado, regimen_id, ubicacion_id, empresa_id, fecha_creacion, fecha_actualizacion) values 
-(18, 'EST142401000001', '001', 'MARTINEZ ONCE MARIA BELEN', 'AV. LEOPOLDO FREIRE', -1.6719601146175827, -78.65041698970857, 'ACTIVO', 1, 248, 14, default, default);
+(18, 'EST142401000001', '001', 'MARTINEZ ONCE MARIA BELEN', 'AV. LEOPOLDO FREIRE', -1.6719601146175827, -78.65041698970857, 'ACTIVO', 3, 248, 14, default, default);
