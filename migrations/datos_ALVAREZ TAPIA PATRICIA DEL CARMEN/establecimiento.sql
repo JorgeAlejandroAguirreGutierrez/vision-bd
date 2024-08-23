@@ -1,0 +1,2 @@
+insert into establecimiento(id, codigo, codigo_sri, descripcion, direccion, latitudgeo, longitudgeo, estado, regimen_id, ubicacion_id, empresa_id, fecha_creacion, fecha_actualizacion) values 
+(20, 'EST162401000001', '001', 'ALVAREZ TAPIA PATRICIA DEL CARMEN', '9 DE ABRIL Y SELVA ALEGRE', -1.6719601146175827, -78.65041698970857, 'ACTIVO', 3, 248, 16, default, default);

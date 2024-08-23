@@ -1,0 +1,2 @@
+insert into usuario(id, codigo, identificacion, apodo, nombre, telefono, celular, correo, contrasena, confirmar_contrasena, avatar, cambiar_contrasena, pregunta, respuesta, estado, perfil_id, estacion_id, fecha_creacion, fecha_actualizacion) values 
+(23, 'USU162401000021', '0201219086', 'PALVAREZ', 'ALVAREZ TAPIA PATRICIA DEL CARMEN', '', '0980226030', 'patty73.np@gmail.com', '827ccb0eea8a706c4c34a16891f84e7b', '827ccb0eea8a706c4c34a16891f84e7b', 'gerentef.png', 'NO', '¿CUAL ES TU MARCA DE VEHICULO PREFERIDO?', 'MAZDA', 'ACTIVO', 2, 25, default, default);
