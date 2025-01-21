@@ -1,0 +1,2 @@
+insert into usuario(id, codigo, identificacion, apodo, nombre, telefono, celular, correo, contrasena, confirmar_contrasena, avatar, cambiar_contrasena, pregunta, respuesta, estado, perfil_id, estacion_id, fecha_creacion, fecha_actualizacion) values 
+(26, 'USU19250100001', '1793220612', 'CABMO', 'CABMO', '', '0998700150', 'cabmosas2024@yahoo.com', '827ccb0eea8a706c4c34a16891f84e7b', '827ccb0eea8a706c4c34a16891f84e7b', 'gerente.png', 'NO', '¿CUAL ES TU MARCA DE VEHICULO PREFERIDO?', 'MAZDA', 'ACTIVO', 2, 28, default, default);

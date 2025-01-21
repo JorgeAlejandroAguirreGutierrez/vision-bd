@@ -1,0 +1,2 @@
+insert into usuario(id, codigo, identificacion, apodo, nombre, telefono, celular, correo, contrasena, confirmar_contrasena, avatar, cambiar_contrasena, pregunta, respuesta, estado, perfil_id, estacion_id, fecha_creacion, fecha_actualizacion) values 
+(25, 'USU18250100001', '0604958009', 'VJIMENA', 'VILLACRES VALVERDE JIMENA CECILIA', '', '0992877172', 'delisaludable4@gmail.com', '827ccb0eea8a706c4c34a16891f84e7b', '827ccb0eea8a706c4c34a16891f84e7b', 'gerentef.png', 'NO', '¿CUAL ES TU MARCA DE VEHICULO PREFERIDO?', 'MAZDA', 'ACTIVO', 2, 27, default, default);

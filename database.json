@@ -10,10 +10,10 @@
     },
 	"test": {
         "driver": "pg",
-        "user": "vlbzrvcshallcf",
-        "password": "23c75a588528e175ec4fc38677ee197f4a6a8b32771197ff89a669db1eafbe46",
-        "host": "ec2-3-228-117-228.compute-1.amazonaws.com",
-        "database": "depc5mb57v111i",
+        "user": "uchsqkm6c3opge",
+        "password": "p66d8e5714da984856c22a048b31aba2eaad78fb42360eb62d9f6e6b0d635b911",
+        "host": "cb889jp6h2eccm.cluster-czrs8kj4isg7.us-east-1.rds.amazonaws.com",
+        "database": "dam8obvb411clv",
         "port": "5432",
 		"ssl": {
       		"rejectUnauthorized": false
@@ -21,10 +21,10 @@
     },
     "prod": {
         "driver": "pg",
-        "user": "fzcbxrvsudoilc",
-        "password": "c82dc2cc1ba191f4be05841f963c3f4595459a10cf7384ddabc4d6e4cae52bf0",
-        "host": "ec2-3-212-29-93.compute-1.amazonaws.com",
-        "database": "d7gtv9lbrh0diq",
+        "user": "udtetufb2gimq3",
+        "password": "p463a126fc247726854a354187382685e6d995fa3fab513d02cf5503b664078a0",
+        "host": "cfoob7btduf6l7.cluster-czrs8kj4isg7.us-east-1.rds.amazonaws.com",
+        "database": "d63ekfuq0qqun0",
         "port": "5432",
         "ssl": {
       		"rejectUnauthorized": false
